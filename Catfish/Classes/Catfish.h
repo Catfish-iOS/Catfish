@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Sook. All rights reserved.
 //
 
+// ----- Categories Begins -----
+
 // Categories/Date
 #import "NSDate+CFFormattedStrings.h"
 
@@ -29,5 +31,10 @@
 // Categories/ViewController/PageViewController
 #import "UIPageViewController+CFScrollView.h"
 
+// ----- Categories Ends -----
+
 // Helpers
 #import "CFSoundHelper.h"
+
+//View/Device
+#import "CFUIDevice.h"
