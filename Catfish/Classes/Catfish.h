@@ -17,9 +17,14 @@
 // Categories/Object
 #import "NSObject+Blocks.h"
 
+//Categories/String
+#import "NSString+CFISO8601Time.h"
+
 // Categories/View
 #import "UIView+AUISelectiveBorder.h"
+#import "UIView+CFFrame.h"
 #import "UIView+CFRoundify.h"
+#import "UIView+CFShadow.h"
 
 // Categories/View/Image
 #import "UIImage+CFResize.h"
@@ -30,11 +35,15 @@
 
 // Categories/ViewController/PageViewController
 #import "UIPageViewController+CFScrollView.h"
+#import "UIPageViewController+CFClearCache.h"
 
 // ----- Categories Ends -----
 
 // Helpers
 #import "CFSoundHelper.h"
+
+//View
+#import "CFUIViewFrame.h"
 
 //View/Device
 #import "CFUIDevice.h"

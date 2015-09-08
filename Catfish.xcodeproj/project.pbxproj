@@ -27,6 +27,9 @@
 		1D2C907C18A3042E002CB358 /* CFUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C907B18A3042E002CB358 /* CFUIButton.m */; };
 		1D48EC701A917D4A002B286B /* UIPageViewController+CFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D48EC6F1A917D4A002B286B /* UIPageViewController+CFScrollView.m */; };
 		1D48EC741A92BA89002B286B /* CFUIDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D48EC731A92BA89002B286B /* CFUIDevice.m */; };
+		1D4DD8331A9FFC51001EFA46 /* CFUIViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4DD8321A9FFC51001EFA46 /* CFUIViewFrame.m */; };
+		1D5C31DE1AA56DE0005687AD /* UIView+CFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5C31DD1AA56DE0005687AD /* UIView+CFFrame.m */; };
+		1D9187671AD3A48500A41D05 /* UIPageViewController+CFClearCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9187661AD3A48500A41D05 /* UIPageViewController+CFClearCache.m */; };
 		1DEB34DD1A2920E20092DA7A /* AUISelectiveBordersLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34D81A2920E20092DA7A /* AUISelectiveBordersLayer.m */; };
 		1DEB34DE1A2920E20092DA7A /* AUISelectiveBordersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34DA1A2920E20092DA7A /* AUISelectiveBordersView.m */; };
 		1DEB34DF1A2920E20092DA7A /* UIView+AUISelectiveBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34DC1A2920E20092DA7A /* UIView+AUISelectiveBorder.m */; };
@@ -34,6 +37,8 @@
 		1DEB34EB1A2925F80092DA7A /* UIViewController+CFPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34EA1A2925F80092DA7A /* UIViewController+CFPresentViewController.m */; };
 		1DEB34F21A295BDD0092DA7A /* UIView+CFRoundify.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34F11A295BDD0092DA7A /* UIView+CFRoundify.m */; };
 		1DEB34F81A299C320092DA7A /* NSObject+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34F71A299C320092DA7A /* NSObject+Blocks.m */; };
+		1DFEF8FF1A9AD503009450DD /* UIView+CFShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFEF8FE1A9AD503009450DD /* UIView+CFShadow.m */; };
+		1DFEF9141A9AF6E2009450DD /* NSString+CFISO8601Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFEF9131A9AF6E2009450DD /* NSString+CFISO8601Time.m */; };
 		624590C67FC84C16B4226837 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968D03187068443CA12CDAD3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +108,12 @@
 		1D48EC6F1A917D4A002B286B /* UIPageViewController+CFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+CFScrollView.m"; sourceTree = "<group>"; };
 		1D48EC721A92BA89002B286B /* CFUIDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUIDevice.h; sourceTree = "<group>"; };
 		1D48EC731A92BA89002B286B /* CFUIDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFUIDevice.m; sourceTree = "<group>"; };
+		1D4DD8311A9FFC51001EFA46 /* CFUIViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUIViewFrame.h; sourceTree = "<group>"; };
+		1D4DD8321A9FFC51001EFA46 /* CFUIViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFUIViewFrame.m; sourceTree = "<group>"; };
+		1D5C31DC1AA56DE0005687AD /* UIView+CFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CFFrame.h"; sourceTree = "<group>"; };
+		1D5C31DD1AA56DE0005687AD /* UIView+CFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CFFrame.m"; sourceTree = "<group>"; };
+		1D9187651AD3A48500A41D05 /* UIPageViewController+CFClearCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+CFClearCache.h"; sourceTree = "<group>"; };
+		1D9187661AD3A48500A41D05 /* UIPageViewController+CFClearCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+CFClearCache.m"; sourceTree = "<group>"; };
 		1DEB34D71A2920E20092DA7A /* AUISelectiveBordersLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUISelectiveBordersLayer.h; sourceTree = "<group>"; };
 		1DEB34D81A2920E20092DA7A /* AUISelectiveBordersLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUISelectiveBordersLayer.m; sourceTree = "<group>"; };
 		1DEB34D91A2920E20092DA7A /* AUISelectiveBordersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUISelectiveBordersView.h; sourceTree = "<group>"; };
@@ -118,6 +129,10 @@
 		1DEB34F11A295BDD0092DA7A /* UIView+CFRoundify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CFRoundify.m"; sourceTree = "<group>"; };
 		1DEB34F61A299C320092DA7A /* NSObject+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Blocks.h"; sourceTree = "<group>"; };
 		1DEB34F71A299C320092DA7A /* NSObject+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Blocks.m"; sourceTree = "<group>"; };
+		1DFEF8FD1A9AD503009450DD /* UIView+CFShadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CFShadow.h"; sourceTree = "<group>"; };
+		1DFEF8FE1A9AD503009450DD /* UIView+CFShadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CFShadow.m"; sourceTree = "<group>"; };
+		1DFEF9121A9AF6E2009450DD /* NSString+CFISO8601Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFISO8601Time.h"; sourceTree = "<group>"; };
+		1DFEF9131A9AF6E2009450DD /* NSString+CFISO8601Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFISO8601Time.m"; sourceTree = "<group>"; };
 		968D03187068443CA12CDAD3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		987B91719BCB4C0EACD6A901 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -234,6 +249,8 @@
 				1D07D2A9189F2490000EB8E2 /* NSString+CFDateComparable.m */,
 				1D07D2AA189F2490000EB8E2 /* NSString+CFFormatted.h */,
 				1D07D2AB189F2490000EB8E2 /* NSString+CFFormatted.m */,
+				1DFEF9121A9AF6E2009450DD /* NSString+CFISO8601Time.h */,
+				1DFEF9131A9AF6E2009450DD /* NSString+CFISO8601Time.m */,
 				1D07D2AC189F2490000EB8E2 /* NSString+CFLocalized.h */,
 				1D07D2AD189F2490000EB8E2 /* NSString+CFLocalized.m */,
 				1D07D2AE189F2490000EB8E2 /* NSString+CFValidation.h */,
@@ -247,8 +264,12 @@
 			children = (
 				1D07D2B1189F2490000EB8E2 /* Alert */,
 				1D07D2B4189F2490000EB8E2 /* Image */,
+				1D5C31DC1AA56DE0005687AD /* UIView+CFFrame.h */,
+				1D5C31DD1AA56DE0005687AD /* UIView+CFFrame.m */,
 				1DEB34F01A295BDD0092DA7A /* UIView+CFRoundify.h */,
 				1DEB34F11A295BDD0092DA7A /* UIView+CFRoundify.m */,
+				1DFEF8FD1A9AD503009450DD /* UIView+CFShadow.h */,
+				1DFEF8FE1A9AD503009450DD /* UIView+CFShadow.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +310,8 @@
 			children = (
 				1D07D2BD189F2490000EB8E2 /* Button */,
 				1D48EC711A92BA6F002B286B /* Device */,
+				1D4DD8311A9FFC51001EFA46 /* CFUIViewFrame.h */,
+				1D4DD8321A9FFC51001EFA46 /* CFUIViewFrame.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -369,6 +392,8 @@
 			children = (
 				1D48EC6E1A917D4A002B286B /* UIPageViewController+CFScrollView.h */,
 				1D48EC6F1A917D4A002B286B /* UIPageViewController+CFScrollView.m */,
+				1D9187651AD3A48500A41D05 /* UIPageViewController+CFClearCache.h */,
+				1D9187661AD3A48500A41D05 /* UIPageViewController+CFClearCache.m */,
 			);
 			path = PageViewController;
 			sourceTree = "<group>";
@@ -549,9 +574,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DFEF9141A9AF6E2009450DD /* NSString+CFISO8601Time.m in Sources */,
 				1D07D2C9189F2490000EB8E2 /* UIImage+CFColor.m in Sources */,
+				1D9187671AD3A48500A41D05 /* UIPageViewController+CFClearCache.m in Sources */,
 				1DEB34F81A299C320092DA7A /* NSObject+Blocks.m in Sources */,
 				1D07D2C8189F2490000EB8E2 /* UIAlertView+CFUtility.m in Sources */,
+				1DFEF8FF1A9AD503009450DD /* UIView+CFShadow.m in Sources */,
 				1D2C907C18A3042E002CB358 /* CFUIButton.m in Sources */,
 				1D07D2C3189F2490000EB8E2 /* NSException+CFThrowable.m in Sources */,
 				1D07D2CC189F2490000EB8E2 /* CFFoundationVersionNumber.m in Sources */,
@@ -559,8 +587,10 @@
 				1DEB34E81A2925AA0092DA7A /* UIViewController+CFNavigationItemButton.m in Sources */,
 				1D1E85021A8DF22E0076F57E /* CFSoundHelper.m in Sources */,
 				1D07D2CA189F2490000EB8E2 /* CFMailMessageCompose.m in Sources */,
+				1D4DD8331A9FFC51001EFA46 /* CFUIViewFrame.m in Sources */,
 				1D07D2CB189F2490000EB8E2 /* CFSMSMessageCompose.m in Sources */,
 				1D07D2CD189F2490000EB8E2 /* CFStringConstants.m in Sources */,
+				1D5C31DE1AA56DE0005687AD /* UIView+CFFrame.m in Sources */,
 				1D07D2C2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m in Sources */,
 				1DEB34DD1A2920E20092DA7A /* AUISelectiveBordersLayer.m in Sources */,
 				1D48EC741A92BA89002B286B /* CFUIDevice.m in Sources */,
